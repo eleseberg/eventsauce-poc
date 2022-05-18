@@ -1,0 +1,5 @@
+/slim/vendor/
+/slim/tmp/
+/slim/logs/
+
+.idea/

@@ -1,0 +1,34 @@
+{
+  "name": "eleseberg/eventsauce-poc",
+  "description": "EventSauce Proof of Concept",
+  "type": "project",
+  "keywords": [
+    "event sourcing",
+    "EventSauce"
+  ],
+  "homepage": "https://ernieleseberg.com",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ernie Leseberg",
+      "homepage": "https://ernieleseberg.com",
+      "role": "Architect"
+    }
+  ],
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.5",
+    "eventsauce/eventsauce": "2.*",
+    "eventsauce/message-repository-for-doctrine": "^0.3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "EL\\": "app/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "8.0.11"
+    }
+  }
+}
